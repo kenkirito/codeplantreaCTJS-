@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles.css";
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+import image1 from './img/1.jpg'
+import image2 from './img/2.jpg'
+import image3 from './img/3.jpg'
+import image4 from './img/4.jpg'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <AliceCarousel autoPlay autoPlayInterval="3000" >
+      <img src={image1} className="sliderimg" alt=""/>
+      <img src={image2} className="sliderimg" alt=""/>
+      <img src={image3} className="sliderimg" alt=""/>
+      <img src={image4} className="sliderimg" alt=""/>
+    </AliceCarousel>
     </div>
   );
 }
-
-export default App;
