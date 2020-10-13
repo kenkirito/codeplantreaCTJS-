@@ -12,8 +12,8 @@ import Box from '@material-ui/core/Box';
 const useStyles = makeStyles({
   root: {
     color: '#00008B',
-    height: '280px',
-    minWidth: 250,
+    height: '350px',
+    minWidth: 320,
     fontStyle: 'thicker',
     boxShadow: ' 0 16px 70px -12.125px rgba(0,0,0,0.3)',
   },
@@ -26,8 +26,8 @@ const useStyles = makeStyles({
     marginBottom: 4,
   },
   gridContainer: {
-    paddingLeft: "15%",
-    paddingRight: "15%",
+    paddingLeft: "7%",
+    paddingRight: "1%",
   },
   textAlign: {
     textAlign: 'center' ,
@@ -35,9 +35,10 @@ const useStyles = makeStyles({
   color: {
     textAlign: 'center' ,
     color: '#f9a825',
+    fontSize: '20px'
   },
   button: {
-    marginLeft: '4.5rem',
+    marginLeft: '6rem',
     borderRadius: 30, 
     backgroundColor: 'blue',
     color: 'white',
@@ -45,29 +46,31 @@ const useStyles = makeStyles({
   },
   Box : {
     borderLeft: '6px solid #f9a825',
+    borderTop: '15px solid #f9a825',
     backgroundColor: '#f9a825',
     color: 'White', 
-    width: '190px',
-    height: '303px', 
+    width: '230px',
+    height: '378px', 
     m: '40px',
-    font: '20px Arial, sans-serif', 
+    font: '25px Arial, sans-serif', 
     borderRadius: '22px',
     borderTopLeftRadius: '5px',
     borderBottomLeftRadius: '1px', 
-    marginBottom: '8vh'
+    marginBottom: '8vh',
   },
   Box1 : {
     borderLeft: '6px solid #00008B',
+    borderTop: '15px solid #00008B',
     backgroundColor: '#00008B',
     color: 'White', 
-    width: '190px',
-    height: '303px', 
+    width: '250px',
+    height: '378px', 
     m: '40px',
-    font: '20px Arial, sans-serif', 
+    font: '25px Arial, sans-serif', 
     borderRadius: '22px',
     borderTopLeftRadius: '5px',
     borderBottomLeftRadius: '1px', 
-    marginBottom: '8vh'
+    marginBottom: '10vh'
   }
 });
 
@@ -94,10 +97,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -107,7 +110,7 @@ export default function SimpleCard()  {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" className={classes.button}><span onMouseOver={MouseOver} onMouseOut={MouseOut}>Learn More</span></Button>
+        <Button size="small" className={classes.button}><span onMouseOver={MouseOver} onMouseOut={MouseOut}>Enroll Now</span></Button>
       </CardActions>
     </Card>
     </Box>
@@ -116,10 +119,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box1}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -138,10 +141,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -160,10 +163,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -182,10 +185,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box1}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -204,10 +207,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -226,10 +229,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -248,10 +251,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box1}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>
@@ -270,10 +273,10 @@ export default function SimpleCard()  {
     <Box className={classes.Box}> Machine Learning
     <Card className={classes.root}>
       <CardContent>
-      <Typography variant="h5" component="h2"className={classes.textAlign} >
-          <h3>RS 25000</h3>
+      <Typography variant="h4" component="h2"className={classes.textAlign} >
+          <h3>RS. 25,000</h3>
         </Typography>
-        <Typography  variant="h6" component="h2"  className={classes.textAlign}>
+        <Typography  variant="h5" component="h2"  className={classes.textAlign}>
         Code machine learning algorithum
         </Typography>
         <Typography variant="body2" component="p" className={classes.color}>

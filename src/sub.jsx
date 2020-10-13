@@ -70,8 +70,6 @@ export default function AddressForm() {
     return (   
       <React.Fragment>
         <Box
-             /*boxShadow={3}
-             bgcolor="background.paper"*/
              m={3}
              p={5}
              className={classes.Outerbox}

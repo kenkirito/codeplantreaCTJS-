@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#040f4f",
     boxShadow: ' 0 16px 70px -12.125px rgba(0,0,0,0.3)',
     borderTopLeftRadius: '20px',
-    borderBottomLeftRadius: '20px'
+    borderBottomLeftRadius: '20px',
   },
    p:{
     Color: "#040f4f",
@@ -77,16 +77,10 @@ const useStyles = makeStyles((theme) => ({
     borderTopRightRadius: '20px',
     borderBottomRightRadius: '20px',
     boxShadow: ' 0 16px 70px -12.125px rgba(0,0,0,0.3)',
-  }                                                                         
+  },                                                                       
 }));
 
-/*const defaultProps = {
-    bgcolor: 'background.paper',
-    m: 1,
-    style: { width: '5rem', height: '5rem' },
-    borderColor: 'text.primary',
-    border: '3px solid Black',
-  };*/
+
 
   const defaultProps = {
     bgcolor: 'background.paper',
@@ -97,10 +91,13 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: '2px',
     boxShadow: ' 0 16px 70px -12.125px rgba(0,0,0,0.3)',
     display: 'flex',
+   
   };
 
 
-export default function FullWidthGrid() {
+
+  const FunctionName = () =>
+  {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -110,7 +107,7 @@ export default function FullWidthGrid() {
         <Grid item xs={12} sm={6}>
           <Paper  className={classes.spacing} ><h3>Faculty</h3>
           <p className={classes.p}>java is a general purpose language which is now used </p>
-          <Box display="flex"  border={1} {...defaultProps} >
+          <Box display="flex"  border={1} {...defaultProps} className={classes.img}  >
           <img className={classes.media}
           display="flex"
           src={java} alt="Math Problems"/ >
@@ -215,8 +212,6 @@ export default function FullWidthGrid() {
   );
 }
 
+export default FunctionName;
 
 
-
-/*marginRight: theme.spacing(10),
-marginLeft: theme.spacing(10),*/
